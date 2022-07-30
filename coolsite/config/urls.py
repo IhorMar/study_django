@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 
 from config import settings
-from women.views import index, pageNotFound
+from women.views import pageNotFound
 from women import urls
 
 urlpatterns = [
