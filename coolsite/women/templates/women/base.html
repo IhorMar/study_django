@@ -42,6 +42,7 @@
 		<li><a href="{% url 'home' %}">All categories</a></li>
 	{% endif %}
 
+
 	{% for c in cats %}
 	{% if c.women__count > 0 %}
 		{% if c.pk == cat_selected %}
