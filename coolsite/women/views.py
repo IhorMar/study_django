@@ -15,6 +15,7 @@ from .utils import DataMixin, menu
 
 
 class WomenHome(DataMixin, ListView):
+    paginate_by = 2
     model = Women
     template_name = 'women/index.html'
     context_object_name = 'posts'
